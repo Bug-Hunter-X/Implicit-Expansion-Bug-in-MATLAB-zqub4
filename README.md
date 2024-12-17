@@ -1,0 +1,3 @@
+This repository demonstrates an uncommon bug in MATLAB related to implicit expansion with logical indexing and assignment. The bug occurs when a logical expression is used for indexing into a matrix, and the result of the expression is not the same size as the matrix being indexed.
+
+The `bug.m` file contains the buggy code, showing the unexpected behavior of implicit expansion. The `bugSolution.m` file demonstrates a solution to the problem.
